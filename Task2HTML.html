@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 2 – Web Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ApexPlanet Internship – Task 2</h1>
+  </header>
+
+  <section class="form-section">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <section class="todo-section">
+    <h2>Dynamic To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <footer>
+    <p>Responsive layout with Flexbox and Grid</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
